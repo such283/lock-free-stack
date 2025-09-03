@@ -3,4 +3,5 @@ project(lock_free_stack)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(lock_free_stack main.cpp)
+add_executable(lock_free_stack main.cpp
+        stack.h)
